@@ -58,8 +58,11 @@ vscode_extensions:
   # Java
   - vscjava.vscode-java-pack
   # Misc
-  - vscodevim.vim
-  - lfs.vscode-emacs-friendly
+  # vim/emacs keybinding extensions are intentionally NOT installed by default:
+  # they override VS Code's default keybindings and have repeatedly confused
+  # contestants. Uncomment if a site explicitly wants them.
+  #- vscodevim.vim
+  #- lfs.vscode-emacs-friendly
   # Themes
   - akamud.vscode-theme-onedark
   - akamud.vscode-theme-onelight
